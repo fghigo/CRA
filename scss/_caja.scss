@@ -1,0 +1,47 @@
+.caja{   
+    
+    background-color: #485461;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+    padding-bottom: 1rem;
+    }
+    .caja1{
+        @extend .caja;
+        color:bisque;
+        width: 97%;
+        border: 2px  rgb(175, 170, 166) solid;
+        margin-left: 1.2rem;
+        @media screen and (max-width:768px) {
+            margin-left: 0.5rem;  
+
+        }
+        
+                       
+    }
+    .caja2{
+        width: 90%;
+        padding: 1rem;
+        @media screen and (max-width:768px) {
+            margin: 1.5rem;            
+        }
+        @media screen and (max-width:1440px) {
+            margin-left: 1.5rem;            
+         } 
+        @media screen and (min-width:1440px) {
+           margin-left: 6.5rem;            
+        }
+        
+    }
+    .parr{
+        background-color: #485461;
+        background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+        text-align: center;
+        
+        
+        h1{
+            color: rgb(175, 170, 166);
+            padding-top: 1rem ;
+            
+        }
+        
+
+    }

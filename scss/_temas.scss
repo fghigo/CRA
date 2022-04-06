@@ -1,0 +1,34 @@
+@mixin music {
+    text-align:center;
+    padding: 1.5rem;
+    justify-content: center;
+}
+
+.temas{
+    
+    h2{ color: rgb(62, 62, 61);}
+
+     &_11{
+        @include music
+        padding-top: 2.1rem;  
+    }
+}
+
+.otras{
+    background-color: rgb(197, 196, 193);
+    background-image: url(../imagenes/reto6.jpg);
+    background-repeat: no-repeat;
+     width: 100%;
+     background-attachment:scroll;
+     background-position: 50% 50%;
+     }
+
+.otras_texto{
+    color: rgb(122, 122, 116);
+    padding:2rem;
+    justify-content: center;
+    text-align: left;
+    }
+
+
+

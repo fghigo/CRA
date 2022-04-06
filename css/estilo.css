@@ -82,25 +82,25 @@
 }
 
 .temas_11 {
-  text-align: center;
+  text-align: left;
   padding: 1.5rem;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   padding-top: 2.1rem;
 }
 
 .otras {
-  background-color: #c5c4c1;
-  background-image: url(../imagenes/reto6.jpg);
+  background-color: #91918e;
+  background-image: url(../imagenes/reto3.jpg);
   background-repeat: no-repeat;
   width: 100%;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: 50% 50%;
 }
 
 .otras_texto {
-  color: #7a7a74;
+  color: #f0f0f4;
   padding: 2rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;

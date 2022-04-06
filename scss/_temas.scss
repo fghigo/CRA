@@ -1,7 +1,7 @@
 @mixin music {
-    text-align:center;
+    text-align:left;
     padding: 1.5rem;
-    justify-content: center;
+    justify-content:flex-start;
 }
 
 .temas{
@@ -15,16 +15,16 @@
 }
 
 .otras{
-    background-color: rgb(197, 196, 193);
-    background-image: url(../imagenes/reto6.jpg);
+    background-color: rgb(145, 145, 142);
+    background-image: url(../imagenes/reto3.jpg);
     background-repeat: no-repeat;
      width: 100%;
-     background-attachment:scroll;
+     background-attachment:fixed;
      background-position: 50% 50%;
      }
 
 .otras_texto{
-    color: rgb(122, 122, 116);
+    color: rgb(240, 240, 244);
     padding:2rem;
     justify-content: center;
     text-align: left;

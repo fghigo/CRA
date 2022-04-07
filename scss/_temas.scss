@@ -1,29 +1,33 @@
 @mixin music {
     text-align:left;
     padding: 1.5rem;
-    justify-content:flex-start;
+   
 }
 
 .temas{
+    display: flex;
     
     h2{ color: rgb(62, 62, 61);}
 
      &_11{
         @include music
-        padding-top: 2.1rem;  
+        padding-top: 2.1rem; 
+        text-decoration: aliceblue; 
+    }
+    &_portada{
+        justify-content: flex-end;
+        padding-left: 5rem;
+        padding-bottom: 2.5rem;
     }
 }
 
 .otras{
-    background-color: rgb(145, 145, 142);
-    background-image: url(../imagenes/reto3.jpg);
-    background-repeat: no-repeat;
-     width: 100%;
-     background-attachment:fixed;
-     background-position: 50% 50%;
-     }
+    background-color: #bbf0f3;
+    background-image: linear-gradient(315deg, #bbf0f3 0%, #f6d285 74%);
+         }
 
 .otras_texto{
+    
     color: rgb(240, 240, 244);
     padding:2rem;
     justify-content: center;

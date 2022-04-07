@@ -24,7 +24,7 @@
   color: #a09c9a;
 }
 
-.caja, .caja1 {
+.caja, .caja1, .caja2 {
   background-color: #485461;
   background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
   padding-bottom: 1rem;
@@ -45,25 +45,20 @@
 
 .caja2 {
   width: 90%;
-  padding: 1rem;
+  padding-top: 1.5rem;
+  padding-left: 20rem;
 }
 
 @media screen and (max-width: 768px) {
-  .caja2 {
-    margin: 1.5rem;
-  }
+  margin: 1.5rem;
 }
 
 @media screen and (max-width: 1440px) {
-  .caja2 {
-    margin-left: 1.5rem;
-  }
+  margin-left: 1.5rem;
 }
 
 @media screen and (min-width: 1440px) {
-  .caja2 {
-    margin-left: 6.5rem;
-  }
+  margin-left: 6.5rem;
 }
 
 .parr {
@@ -77,6 +72,12 @@
   padding-top: 1rem;
 }
 
+.temas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .temas h2 {
   color: #3e3e3d;
 }
@@ -84,19 +85,22 @@
 .temas_11 {
   text-align: left;
   padding: 1.5rem;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
   padding-top: 2.1rem;
+  -webkit-text-decoration: aliceblue;
+          text-decoration: aliceblue;
+}
+
+.temas_portada {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-left: 5rem;
+  padding-bottom: 2.5rem;
 }
 
 .otras {
-  background-color: #91918e;
-  background-image: url(../imagenes/reto3.jpg);
-  background-repeat: no-repeat;
-  width: 100%;
-  background-attachment: fixed;
-  background-position: 50% 50%;
+  background-color: #bbf0f3;
+  background-image: linear-gradient(315deg, #bbf0f3 0%, #f6d285 74%);
 }
 
 .otras_texto {
